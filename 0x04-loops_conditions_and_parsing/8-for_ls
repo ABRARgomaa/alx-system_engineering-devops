@@ -3,6 +3,6 @@
 files=$(ls -A)
 for file in $files
 do
-	name=$(echo $file | cut -d'-' -f2-)
-	echo $name
+	name=$(echo "$file" | cut -d'-' -f2-)
+	echo "$name"
 done
