@@ -8,7 +8,7 @@ do
 		echo "Hour: $hour"
 	else
 		echo "Hour: $hour"
-		while [ $i -lt 61 ]
+		while [ $i -lt 60 ]
 		do
 			echo $i
 			i=$(( i+1 ))
