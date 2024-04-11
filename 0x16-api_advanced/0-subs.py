@@ -20,13 +20,4 @@ def number_of_subscribers(subreddit):
 
 
 if __name__ == "__main__":
-    sub = argv[1]
-    subscribers = number_of_subscribers(sub)
-    if subscribers:
-        print("Output: existing subreddit")
-        print("Score: 2 out of 2 points")
-        print("Reason: OK")
-    else:
-        print("Output: nonexisting subreddit")
-        print("Score: 2 out of 2 points")
-        print("Reason: OK")
+    number_of_subscribers(argv[1])
